@@ -21,12 +21,9 @@ class SentimentAnalysis:
         ## set up an instance of Tweepy
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
-        api = tweepy.API(auth)
-        
+        api = tweepy.API(auth)      
       
        
-
-
         # input for term to be searched and how many tweets to search
         searchTerm = input("Enter Keyword/Tag to search about: ")
         NoOfTerms = int(input("Enter how many tweets to search: "))
