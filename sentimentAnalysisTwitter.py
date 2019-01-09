@@ -1,4 +1,3 @@
-import sys
 import tweepy
 import csv
 import re
@@ -144,10 +143,7 @@ class SentimentAnalysis:
         plt.title('How people are reacting on ' + searchTerm + ' by analyzing ' + str(noOfSearchTerms) + ' Tweets.')
         plt.axis('equal')
         plt.tight_layout()
-        plt.show()
-
-    
-
+        plt.show()  
 
 
 if __name__== "__main__":
